@@ -14,7 +14,7 @@ namespace OOPS_CONCEPT.Models
         public void SetSalary(double salary) => Salary = salary;
 
         public override void DisplayInfo()
-        {
+        {    
             Console.WriteLine($"Employee: {Name}, Age: {Age}, Salary: {Salary}");
         }
     }
