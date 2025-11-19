@@ -12,3 +12,4 @@ C:\Git_Learning\OOPs_Concept\obj\Debug\net9.0\refint\OOPs_Concept.dll
 C:\Git_Learning\OOPs_Concept\obj\Debug\net9.0\OOPs_Concept.pdb
 C:\Git_Learning\OOPs_Concept\obj\Debug\net9.0\OOPs_Concept.genruntimeconfig.cache
 C:\Git_Learning\OOPs_Concept\obj\Debug\net9.0\ref\OOPs_Concept.dll
+C:\Git_Learning\OOPs_Concept\obj\Debug\net9.0\OOPs_Concept.sourcelink.json

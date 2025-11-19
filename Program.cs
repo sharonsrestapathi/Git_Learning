@@ -1,17 +1,19 @@
-﻿using OOPS_CONCEPT.Models;
+using OOPS_CONCEPT.Models;
 
 class Program
 {
     static void Main()
     {
-        Person p = new Person("John", 30);
-        p.DisplayInfo();
+        Shape circle = new Circle("Red", 5);
+        circle.ShowColor();
+        Console.WriteLine("Circle Area: " + circle.CalculateArea());
 
-        Employee e = new Employee("Alice", 28, 45000);
-        e.DisplayInfo();
+        Shape rectangle = new Rectangle("Blue", 4, 6);
+        rectangle.ShowColor();
+        Console.WriteLine("Rectangle Area: " + rectangle.CalculateArea());
 
-        Manager m = new Manager("Bob", 40, 90000);
-        m.DisplayInfo();
-        m.DoWork();
+        Shape triangle = new Triangle("Green", 10, 5);
+        triangle.ShowColor();
+        Console.WriteLine("Triangle Area: " + triangle.CalculateArea());
     }
 }
