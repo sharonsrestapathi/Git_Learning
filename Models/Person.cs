@@ -1,19 +1,19 @@
 namespace OOPS_CONCEPT.Models
 {
-    public class Person
+    public class Sharon
     {
-        public string Name { get; set; }
+        public int DOB { get; set; }
         public int Age { get; set; }
 
-        public Person(string name, int age)
+        public Sharon(int dob, int age)
         {
-            Name = name;
+            DOB = dob;
             Age = age;
         }
 
         public virtual void DisplayInfo()
         {
-            Console.WriteLine($"Name: {Name}, Age: {Age}");
+            Console.WriteLine($"DOB: {Name}, Age: {Age}");
         }
     }
 }
